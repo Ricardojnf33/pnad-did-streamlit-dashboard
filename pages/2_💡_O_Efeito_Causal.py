@@ -12,15 +12,15 @@ def load_data():
 @st.cache_resource
 def run_did_model(_df):
     formula_did = 'log_renda ~ treat * post + idade + C(sexo) + C(cor_raca)'
-    model = smf.wls(
+    did_model = smf.wls(
         formula=formula_did,
         data=_df,
         weights=_df['peso_amostral']
     ).fit(
         cov_type='cluster',
-        cov_kwds={'groups': _df['UF']}
+        cov_kwds={'groups': _df['sigla_uf']}
     )
-    return model
+    return did_model
 
 df = load_data()
 did_model = run_did_model(df)
