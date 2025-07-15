@@ -30,8 +30,6 @@ st.sidebar.info(
     **Navegue pelas páginas para explorar a análise.**
     """
 )
-st.sidebar.markdown("---")
-st.sidebar.write("Desenvolvido com base em metodologias de nível PhD.")
 
 # --- Conteúdo da Página Principal ---
 st.title("🎓 Impacto Causal da Escola em Tempo Integral")
