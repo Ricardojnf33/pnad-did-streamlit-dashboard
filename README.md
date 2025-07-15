@@ -101,4 +101,4 @@ O dashboard interativo, disponível online, serve como a principal ferramenta de
 3.  **O Efeito Causal:** Mostra o resultado central da análise — o gráfico de tendências paralelas e o coeficiente DiD estimado, com sua interpretação e significância estatística.
 
 ---
-*Este projeto foi desenvolvido como um portfólio de análise de dados e econometria aplicada, demonstrando competências em inferência causal, manipulação de microdados e desenvolvimento de produtos de dados.* 
+*Este projeto foi desenvolvido como um portfólio de análise de dados e econometria aplicada, demonstrando competências em inferência causal, manipulação de microdados e desenvolvimento de produtos de dados. Feito por Ricardo Fernandes e Raymundo Martins* 
